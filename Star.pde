@@ -41,7 +41,7 @@ class Star {
   float py = map(y / pz, 0, 1, 0, height);
   
   pz = z;
-  stroke(51,51,255,200);
+  stroke(153,255,255,150);
   line(px, py, sx, sy);
   }
 }
